@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>TELA LOGIN</title>
+        <style>
+            #fundo{
+                background-color: #f1f1f198;
+                width: 25%;
+                margin: auto;
+                padding: 25px;
+                text-align: center;
+                border-radius: 5%;
+                font-family: sans-serif;
+                margin-top: 80px;
+                
+            }
+            #fundo input[type=submit]{
+                background: darkslateblue;
+                color: white;
+                width: 185px;
+                width: 100%;
+                font-weight: 600;
+            }
+            #fundo input[type=submit]:hover{
+                background: #4242ff;
+                cursor: pointer; 
+            }
+            #fundo input{
+                padding: 10px;
+                width: 100%;
+            }
+            div{
+                padding: 5px;
+            }
+            #register{
+                font-size: 10pt;
+                color: #ffffff;
+            }
+            h1{
+                color: #606060;
+                font-weight: 350;
+            }
+            img {
+                width: 50%;
+            }
+            body{
+                background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/07/HD-Beautiful-City-Wallpaper-1920x1080.jpg");
+                background-size: 100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="fundo">
+        <img src="C:\Users\Administrador\Desktop\DEVELOPMENT\WEB\Recriados\VIRMERSON\img\admin.png">
+            <div/>
+            <h1>Log-in</h1>
+            </div>
+            
+            <div>
+            <input type="text" placeholder="Username" min="80" max="80" />
+            </div>
+            
+            <div>
+            <input type="password" placeholder="Password"/>
+            </div>
+
+            <div>
+            <input type="submit" value="login">
+            </div>
+
+            <div id="register">
+            Register | Forgot Password
+            </div>
+        </div>
+    </body>
+</html>
