@@ -1,0 +1,125 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+
+        <!-- 
+
+            J A V A  S C R I P T 
+        
+        -->
+
+            <script>
+                class Calculadora{ 
+                    somar(){
+                        var n1 = parseFloat(document.getElementById("n1").value);
+                        var n2 = parseFloat(document.getElementById("n2").value);
+                        alert(n1+n2);
+                    }
+                
+                    subtrair(){
+                        var n1 = parseFloat(document.getElementById("n1").value);
+                        var n2 = parseFloat(document.getElementById("n2").value);
+                        alert(n1-n2);
+                    }
+                
+                    multiplicar(){
+                        var n1 = parseFloat(document.getElementById("n1").value);
+                        var n2 = parseFloat(document.getElementById("n2").value);
+                        alert(n1*n2);
+                    }
+                
+                    dividir(){
+                        var n1 = parseFloat(document.getElementById("n1").value);
+                        var n2 = parseFloat(document.getElementById("n2").value);
+                        alert(n1/n2);
+                    }
+                    porcem(){
+                        var n1 = parseFloat(document.getElementById("n1").value);
+                        var n2 = parseFloat(document.getElementById("n2").value);
+                        alert(n2*(n1/100)); 
+                    }
+                }
+
+                var calculadora = new Calculadora()
+            </script>
+            
+    <!-- 
+
+        C S S 
+        
+    -->
+            
+            <style> 
+                #fundo {
+                    background-color:black;
+                    width: 30%;
+                    margin: auto;
+                    text-align: center;
+                    border-radius: 50%;
+                    margin-top: 50px;
+                    padding: 40px;
+                }
+                div {
+                    color:orange;
+                    padding: 8px;
+                    font-family: 'Furore';
+                }
+                #fundo input{
+                    padding: 5px;
+                }
+                #fundo input[type=submit]{
+                    background: #606060;
+                    color: #ffffff;
+                    cursor: pointer;
+                    padding: 3px;
+                    width: 10%;
+                    font-weight: 900;
+                }
+                #fundo input[type=submit]:hover{
+                    background: #ff6600;
+                    border: 606060; 
+                }
+                img {
+                    width: 50%;
+                }
+            
+            </style>
+    </head>
+
+<!-- 
+    
+    H T M L 
+
+-->
+
+    <body>
+        <div id="fundo">
+
+            <div>
+                <h1 style="font-weight: bolder;">CALCULADORA</h1>
+                <img id="icone" src="C:\Users\Administrador\Desktop\DEVELOPMENT\WEB\Recriados\VIRMERSON\img\Logo-Calculadora-de-Bebida.png";>
+            </div>
+
+            <div>
+                <label>N1</label>
+                <input type="number" placeholder="Digite um número..." id="n1">
+             </div>
+
+            <div>
+                <label>N2</label>
+                <input type="number" placeholder="Digite um número..." id="n2">
+            </div>
+
+            <div>
+                <input type="submit" value="+" onclick="calculadora.somar()"/>
+                <input type="submit" value="-" onclick="calculadora.subtrair()"/>
+                <input type="submit" value="*" onclick="calculadora.multiplicar()"/>
+                <input type="submit" value="/" onclick="calculadora.dividir()"/>
+                <input type="submit" value="%" onclick="calculadora.porcem()"/>
+            </div>
+
+        </div>
+    </body>
+</html>
