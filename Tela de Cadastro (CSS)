@@ -1,0 +1,121 @@
+body{
+    font-family: sans-serif;
+
+}
+div{
+    padding: 10px;
+}
+input[type="text"], input[type="email"], input[type="datetime-local"]{
+    width: 100%;
+}
+form{
+    width: 70%;
+    margin: auto;
+}
+button{
+    background-color: rgb(9,163,198);
+    border: azure;
+    padding: 10px 20px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(7, 210, 255);
+    cursor: pointer;
+}
+.centro{
+    text-align: center;
+}
+
+/* FORMATAÇÃO DO MENU*/
+
+nav{
+    background-color: rgb(7, 210, 255);
+    float: left;
+    width: 30%;
+    height: 100%;
+    box-shadow: 5px 0px 10px black;
+    color: white;
+    list-style: none;
+    transition: width 1s;
+    overflow: hidden;
+    position: fixed;
+    
+}
+
+ul{
+    padding: 0px;
+    padding-top: 0px;
+  
+}
+
+nav li{
+    font-size: 18px;
+    padding-top: 5px;
+}
+nav li:hover{
+    list-style: none;
+    background-color:rgb(27, 195, 233);
+    cursor: pointer;
+    font-size: 20px;
+}
+main{
+    float: right;
+    width: 70%;
+    transition: width 1s;
+
+}
+.menu_fechar{
+    width: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+.menu_abrir{
+    width: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.menu_aberto{
+    width: 40%;
+}
+
+
+@media (max-width:600px){
+    nav{
+        width: 0%;
+    }
+    main{
+        width: 100%;
+        transition: width 1s;
+    }
+    .menu_fechar{
+        opacity: 1;
+    }
+    .menu_abrir{
+        opacity: 1;
+    }
+}
+
+.mensagem, img{
+    display: none;
+
+}
+.show{
+    display: block;
+    background-color: rgb(255, 248, 145);
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    border-radius: 15px;
+}
+.outimagem{
+    width: 10px;
+    display: block;
+    float: right;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 35px;
+    border: 2px solid black;
+}
