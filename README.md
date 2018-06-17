@@ -1,1 +1,0 @@
-# HighTechCursos-Frontend
