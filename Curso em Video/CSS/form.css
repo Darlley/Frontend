@@ -1,0 +1,21 @@
+@charser "UTF-8";
+
+textarea{
+	display: block;
+	position: relative;
+	width: 750px;
+	height: 80px;
+	left: 50px;
+	top: 2px;
+}
+input[type=submit]{
+	background: #606060;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: 0px;
+}
+input[type=submit]:hover{
+	background: #ff6600;
+	border: 606060; 
+}
