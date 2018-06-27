@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+	<head>
+	  <meta charset="UF-8"/>
+	  <title>GOOGLE GLASS</title>
+	  <link rel="stylesheet" href="C:\Users\Administrador\Desktop\projeto-glass-html5\_css\estilo.css"/>
+	  <link rel="stylesheet" href="C:\Users\Administrador\Desktop\projeto-glass-html5\_css\form.css"/>
+	  
+	</head>
+	<script language="javascript" src="_javascript/funções.js"></script>
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+				<hgroup>
+				<img id="logo" src="C:\Users\Administrador\Desktop\projeto-glass-html5\_imagens\glass-logo-peq.jpg"/>
+				<h1><span style="font-weight: 600">GOOGLE GLASS</span></h1>
+				<h2>A REVOLUÇÃO DO GOOGLE ESTÁ CHEGANDO</h2>
+				</hgroup>
+					
+				<img id="icone" src="C:\Users\Administrador\Desktop\projeto-glass-html5\_imagens\glass-oculos-preto-peq.png"/>
+				<nav id="menu">
+				<ul type="disc">
+					<li onmouseover="mudaFoto('_imagens\home.png')"><a href="index.html">Home</a></li>
+					<li onmouseover="mudaFoto('_imagens\especificacoes.png')"><a href="specs.html">Especificações</a></li>
+					<li onmouseover="mudaFoto('_imagens\fotos.png')"><a href="fotos.html">Fotos</a></li>
+					<li onmouseover="mudaFoto('_imagens\multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+					<li onmouseover="mudaFoto('_imagens\contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+				</ul>
+				</nav>
+			</header>
+
+<header id="formulario">
+				<hgroup>
+					<h3>Fale Conosco > Contato</h3>
+					<h1>Formulário de Contato</h1>
+					<h2>por Darlley Brito<h2>
+					<h3 class="direita">Atualizado em 13/Maio/2018</h3>
+				</hgroup>
+			</header>
+
+	<form mothod="post" id="fContato" action="mailto:darlleybrito@gmail.com">
+	
+		<fieldset id="usuario"><legend>Identificação do Usuário</legend>
+			<p>Nome: <input type="text" placeholder="Digite seu nome..." name="tNome" id="cNome" size="31" maxlength="30"/></p>
+			<p>Senha: <input type="password" placeholder="Digite sua senha..." name="tSenha" id="cSenha" size="31" maxlength="30"/></p>
+			<p>E-mail: <input type="email" placeholder="Digite seu e-mail..." name="tMail" id="cMail" size="31" maxlength="30"/></p>
+			<fieldset id="sexo"><legend><label for="opacao">Sexo:</label></legend>
+				<input type="radio" name="sexo" id="opcao" value="Masculino" /> Masculino
+				<input type="radio" name="sexo" id="opcao" value="Feminino" /> Feminino </fieldset>
+			<p>Data de Nascimento: <input type="date"/ name="tNasc" id="cNasc"><p>
+		</fieldset>
+
+		<fieldset id="endereco"><legend>Endereço do Usuário</legend>
+			<p>Logradouro: <input type="text" placeholder="Nome da Rua..." name="tRua" id="cRua" size="13" maxlength="80"/></p>
+			<p>Número: <input type="number" name="tNum" id="cNum" min="0" max="99999"/></p>
+			<p><label for="cEst">Estado: </label>
+			<select name="tEst" id="cEst">
+				<option>Rio De janeiro</option>
+				<option>São Paulo</option>
+				<option selected>Mato Grosso do Sul</option>
+				<option>Rio Grande do Sul</option>
+				<option>Amazonas</option>
+				<option>Acre</option>
+			</select></p>
+			<p><label for="cMsg">Cidade: </label><input type="text" name="tCid" size="20" maxlength="40" placeholder="Sua Cidade" list="cidades"/></p>
+			<datalist id="cidades">
+				<option value="São Paulo"></option>
+				<option value="Rio de Janeiro"></option>
+				<option value="Campo Grande"></option>
+				<option value="Curitiba"></option>
+				<option value="Bahia"></option>
+		</fieldset>
+
+		<fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+			<p><label for="cUrg">Grau de Urgência: </label><input type="range" name="tUrg" id="cUrg" min="0" max="20" step="2"</p>
+			<p><label for="cMsg">Mensagem: <textarea name="msg" placeholder="Envie uma mensagem..."></textarea></label></p>
+		</fieldset>
+
+		<fieldset id="pedido"><legend>Quero um Google Glass</legend>
+			<p><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label><input type="checkbox" name="tPed" id="cPed"><label></p>
+			<p><label for="cCor">Cor:</label><input type="color" name="tCor" id="cCor" value="#0000ff"></p>
+			<p><label for="cQtd">Quantidade: <input type="number" name="tNum" id="cNum" min="0" max="99999" value="0"/></label></p>
+			<p><label for="cTot">Preço Total: R$</label> <input type="text" name="tTot" id="cTot" placeholder="     -TOTOAL A PAGAR- " readonly></p>
+		</fieldset>
+
+		<input type="submit" value="Enviar"/>
+	
+	</form>
+
+			<footer id="rodape">
+				<h5 style="text-align: center;"> Copyright <sup>&copy;</sup> 2018 - by Darlley Brasil</br>
+				<a href="https://www.cursoemvideo.com">Curso em Vídeo</a></h5>
+			</footer>
+		</div>
+	</body>
+</html>
