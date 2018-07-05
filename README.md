@@ -1,6 +1,6 @@
 # starting-Frontend
 
-![CSS](https://lh5.googleusercontent.com/YDHdIi-_77KrwvowfhtBjJOv8V912ufI3eFCT_MbKdqD7XSe5Tc1QVMfAmlzUgTOiAVaxuZYKHhKZWzhBAoxz55DsUemqEd_NAFEFE0PBBMPwq7lF38=w1175)
+![HTML](https://lh5.googleusercontent.com/lpPS3iPpmSyzgRdFnjuRLR089KpmXa6PXssaaXWqaSJGzcEJv2TSwULh0OWk9er8oxjOc0wGVQcfYJHKDAe98kzAYEJumCMhgqlbvYJoGQHKlQtA-HU=w1175)
 
 Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 
