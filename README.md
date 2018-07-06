@@ -7,7 +7,7 @@ Playlist de minha autoria - https://www.youtube.com/playlist?list=PL45i6mPs-nei_
 CERTIFICAÇÕES
 -
 
-![HTML](https://lh5.googleusercontent.com/XeLr13ebgmch4lnWHRIby-73M8WELRdg4owLJih804Wxb16QZ5NMwR855ZwhMyxHVSWfgGi-V1WLLlb47AG971a4E1nm_C7m2lLOS4_extgaJE5Lhu0=w1175)
+![Curso em Vídeo](https://4.bp.blogspot.com/-VIgjGmYSoNg/Wz_eGy9NCXI/AAAAAAAABKc/jmaTXFvrC-YjtOVfJv27krtE6-pCFnjagCEwYBhgL/s640/certhtml.jpg)
 
 LIVROS -lendo
 -
