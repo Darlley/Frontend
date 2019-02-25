@@ -7,7 +7,7 @@ html {
 }
 .container {
     margin: 0 auto;
-    width: 960px;
+    width: 67.5%; /* 960px */
 }
 h1 {
     font-size: 32px;
