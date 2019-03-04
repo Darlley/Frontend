@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>DOMINANDO JAVASCRIPT COM JQUERY</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    </head>
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>R$ 29,90</div>
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+            </tbody>
+            <tr>
+                <td></td>
+                <td>Total da compra</td>
+                <td><div id="total">R$ 29,90</div></td>
+                <td></td>
+            </tr>
+        </table>
+
+
+        <script type="text/javascript">
+            var total = document.getElementById("total");
+            alert(total.innerHTML);
+
+            function moneyTextToFloat(text){
+                var cleanText = text.replace("R$ ", "").replace(",", ".");
+                return parseFloat(cleanText);
+            }
+            function floatToMoneyText(value) {
+                var text = (value < 1 ? "0" : "") + Math.floor(value * 100);
+                text = "R$ " + text;
+                return text.substr(0, text.length - 2) + "," + text.substr(-2);
+            }
+
+            var total = document.getElementById("total");
+            var formattedText = floatToMoneyText(moneyTextToFloat(total.innerHTML));
+            alert(formattedText === total.innerHTML);
+
+            function readTotal() {
+                var total = document.getElementById("total");
+                return moneyTextToFloat(total.innerHTML);
+            }
+        </script>
+    </body>
+</html>
