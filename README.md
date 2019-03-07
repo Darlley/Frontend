@@ -21,3 +21,4 @@ LIVROS -lendo
 ![Bootstrap 3.3.5](https://cache.skoob.com.br/local/images//uRa4wXeJenvHbFZ3oXWoK0FL3iA=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/546781/BOOTSTRAP_335_1452347094546781SK1452347094B.jpg)
 ![Guia Front-End](https://cache.skoob.com.br/local/images//f339GoszIc0GDVcZqWYRg5glVqs=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/513367/GUIA_FRONTEND_1435769607513367SK1435769607B.jpg)
 ![Google Android](https://cache.skoob.com.br/local/images//DZPY7Ww3KPpg071E5n_n-kpkgo4=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/333375/GOOGLE_ANDROID_1373486513B.jpg)
+![A Web Mobile](https://cache.skoob.com.br/local/images//GmTDI7uQNAievQn6g6LOk3a3SuU=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/315275/A_WEB_MOBILE_1365538894B.jpg)
