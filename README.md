@@ -17,3 +17,7 @@ LIVROS -lido
 LIVROS -lendo
 -
 ![Web Design Responsivo](https://cache.skoob.com.br/local/images//2YQbBu5T8bEpRsCU9vZBzvkIS5M=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/270959/WEB_DESIGN_RESPONSIVO_PAGINAS_ADAPTAVEI_1358361603B.jpg)
+![Dominando JavaScript com jQuery](https://cache.skoob.com.br/local/images//nSVt_Gzl_18ggwelMsjKeQWN5pw=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/335825/DOMINANDO_JAVASCRIPT_COM_JQUERY_1374552700B.jpg)
+![Bootstrap 3.3.5](https://cache.skoob.com.br/local/images//uRa4wXeJenvHbFZ3oXWoK0FL3iA=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/546781/BOOTSTRAP_335_1452347094546781SK1452347094B.jpg)
+![Guia Front-End](https://cache.skoob.com.br/local/images//f339GoszIc0GDVcZqWYRg5glVqs=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/513367/GUIA_FRONTEND_1435769607513367SK1435769607B.jpg)
+![Google Android](https://cache.skoob.com.br/local/images//DZPY7Ww3KPpg071E5n_n-kpkgo4=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/333375/GOOGLE_ANDROID_1373486513B.jpg)
