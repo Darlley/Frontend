@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
+        <script src="javascript/rogus.js" type="text/javascript"></script>
     </head>
     <body>
         <table>
@@ -25,30 +26,5 @@
                 <td></td>
             </tr>
         </table>
-
-
-        <script type="text/javascript">
-            var total = document.getElementById("total");
-            alert(total.innerHTML);
-
-            function moneyTextToFloat(text){
-                var cleanText = text.replace("R$ ", "").replace(",", ".");
-                return parseFloat(cleanText);
-            }
-            function floatToMoneyText(value) {
-                var text = (value < 1 ? "0" : "") + Math.floor(value * 100);
-                text = "R$ " + text;
-                return text.substr(0, text.length - 2) + "," + text.substr(-2);
-            }
-
-            var total = document.getElementById("total");
-            var formattedText = floatToMoneyText(moneyTextToFloat(total.innerHTML));
-            alert(formattedText === total.innerHTML);
-
-            function readTotal() {
-                var total = document.getElementById("total");
-                return moneyTextToFloat(total.innerHTML);
-            }
-        </script>
     </body>
 </html>
