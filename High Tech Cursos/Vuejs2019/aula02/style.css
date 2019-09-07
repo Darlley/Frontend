@@ -1,0 +1,15 @@
+div{
+    width: 250px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
