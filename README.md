@@ -8,6 +8,7 @@ CERTIFICAÇÕES
 -
 
 ![Curso em Vídeo](https://4.bp.blogspot.com/-VIgjGmYSoNg/Wz_eGy9NCXI/AAAAAAAABKc/jmaTXFvrC-YjtOVfJv27krtE6-pCFnjagCEwYBhgL/s640/certhtml.jpg)
+![HTML E CSS: O Inicio](https://udemy-certificate.s3.amazonaws.com/image/UC-NTHC0UCF.jpg)
 
 ## LIVROS 
 
