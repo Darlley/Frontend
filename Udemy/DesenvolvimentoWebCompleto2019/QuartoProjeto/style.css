@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Notícias cidade - Seu site de notícias</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+	<div id="container"> <!--INICIO CONTAINER-->
+		<div id="topo"> <!--INCIO TOPO-->
+			<img src="imagens/logo.png" alt="">
+			<ul id="navegacao">
+				<li class="primeiro"><a id="home" href="">Home</a></li>
+				<li><a id="brasil" href="brasil.html">Brasil</a></li>
+				<li><a id="internacional" href="internacional.html">Internacional</a></li>
+				<li><a id="economia" href="economia.html">Economia</a></li>
+				<li><a id="saude" href="saude.html">Saúde</a></li>
+				<li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+				<li><a id="fotos" href="fotos.html">Fotos</a></li>
+			</ul>
+		</div> <!--FIM TOPO-->
+		<div id="conteudo"> <!--INCIO DESTAQUES-->
+			<div id="primario">
+				<div class="caixa destaque">
+					<h2>Destaques</h2>
+					<div class="caixa-conteudo">
+						<h3>Nova legislação</h3>
+						<img class="imagem-principal" src="imagens/taxi.jpg" width="100%" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="">Leia mais</a>
+					</div>
+				</div>		
+				<div class="caixa">
+					<h2>Mundo</h2>
+					<div class="caixa-conteudo">
+						<ul id="lista-noticia">
+							<li>
+								<a href="">
+									<img width="80" src="imagens/tecnologia.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img width="80" src="imagens/tecnologia.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img width="80" src="imagens/tecnologia.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img width="80" src="imagens/tecnologia.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="secundario"> <!---INCIO ULTIMAS ENTREVISTAS-->
+				<div class="caixa entrevista">
+					<h2>Ultima entrevista</h2>
+					<div class="caixa-conteudo">
+						<h3>Entrevisa com Felipe Silva</h3>
+						<img class="imagem-principal" src="imagens/doutor.jpg" width="100%" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="">Leia mais</a>
+					</div>
+				</div>
+				<div class="caixa"> <!--NOTÍCIAS RECENTES-->
+					<h2>Noticias recentes</h2>
+					<div class="caixa-conteudo">
+						<ul id="lista-noticia">
+							<li>
+								<a href="">
+									<img width="80" src="imagens/tecnologia.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img width="80" src="imagens/tecnologia.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img width="80" src="imagens/mundo.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img width="80" src="imagens/taxi.jpg" alt="">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur...</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div> <!--FINAL NOTICIAS RECENTES-->
+			</div> <!--FINAL ULTIMAS ENTREVISTAS-->
+			<div id="lateral"> <!--INCIO LATERAL-->
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<ul>
+							<li><a href="">José de Almeida</a></li>
+							<li><a href="">Felipe Silva</a></li>
+							<li><a href="">Renato Rodrigues</a></li>
+							<li><a href="">Abelardo Silveira</a></li>
+							<li><a href="">André Carlos</a></li>
+							<li><a href="">Márcio Mello</a></li>
+							<li><a href="">João Pedro</a></li>
+							<li><a href="">Fernando Weiss</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="caixa">
+					<h2>News</h2>
+					<div class="caixa-conteudo">
+						<form action="">
+							<div>
+								<label for="email">Email:</label>
+								<input type="text" name="email" id="email" placeholder="E-mail">
+							</div>
+							<div>
+								<input class="submit" type="submit" value="Cadastrar">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div> <!--FIM LATERAL-->
+		</div> <!--FIM DESTAQUES-->
+	</div> <!--FIM CONTAINER-->
+	<div id="container-rodape"> <!--INCIO CONTAINER RODAPE-->
+		<div id="rodape">
+			Rodape
+		</div>
+	</div> <!--FIM CONTAINER RODAPE-->
+</body>
+</html>
