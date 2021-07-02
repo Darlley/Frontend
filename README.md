@@ -10,8 +10,11 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 1. [DESENVOVLIMENTO WEB #3 - FERRAMENTAS DE DESENVOLVIMENTO FRONT-END](https://www.youtube.com/playlist?list=PL45i6mPs-nejHV0_qUT651NaKNhRbbNJn)
 1. [DESENVOVLIMENTO WEB #4 - FRAMEWORKS FRONT-END](https://www.youtube.com/playlist?list=PL45i6mPs-nejgDrlzMT9F0LlEs33olqxE)
 
+## Projetos realizados
 
-## Exercícios e projetos realizados:
+1. Clone | [front-end Jera](https://darlley.github.io/Frontend/ClonesFrontEnd/jera/)
+
+## Exercícios de cursos:
 
 > **Curso de HTML5 e CSS3** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
 
@@ -29,12 +32,14 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 1. [Site Anna Bella Modelo](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/SegundoProjeto/)
 
 > **Curso de HTML5** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o)
->> 1. [Site Google Glass](https://darlley.github.io/Frontend/Curso%20em%20Video/HTML/)
->> <img width="100%" src="https://4.bp.blogspot.com/-VIgjGmYSoNg/Wz_eGy9NCXI/AAAAAAAABKc/jmaTXFvrC-YjtOVfJv27krtE6-pCFnjagCEwYBhgL/s640/certhtml.jpg" alt="Curso em Vídeo">
+1. [Site Google Glass](https://darlley.github.io/Frontend/Curso%20em%20Video/HTML/)
 
 > **HTML e CSS: O Início** - [UDEMY](https://www.udemy.com/course/html-e-css-o-inicio/)
->> 1. [Site modelo institucional](https://darlley.github.io/Frontend/Udemy/HTMLeCSSOIn%C3%ADcio/)
->> <img width="100%" src="https://udemy-certificate.s3.amazonaws.com/image/UC-NTHC0UCF.jpg" alt="Matheus Battisti">
+1. [Site modelo institucional](https://darlley.github.io/Frontend/Udemy/HTMLeCSSOIn%C3%ADcio/)
+
+### CERTIFICAÇÕES 
+<img width="100%" src="https://4.bp.blogspot.com/-VIgjGmYSoNg/Wz_eGy9NCXI/AAAAAAAABKc/jmaTXFvrC-YjtOVfJv27krtE6-pCFnjagCEwYBhgL/s640/certhtml.jpg" alt="Curso em Vídeo">
+<img width="100%" src="https://udemy-certificate.s3.amazonaws.com/image/UC-NTHC0UCF.jpg" alt="Matheus Battisti">
   
 ## LIVROS 
 
