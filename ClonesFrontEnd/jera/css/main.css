@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 * {
   margin: 0;
@@ -48,12 +49,13 @@ nav ul a{
     color: #fff;
     font-size:14px;
     font-weight: 800;
-    padding: 0px 10px;
+    padding: 0 1em;
     text-transform: uppercase;
+    
 }
 nav ul a:hover{
     color: #fff;
-    border-bottom: 4px solid #0db551;
+    border-bottom: 8px solid #0db551;
 }
 
 /* ORIGAMID MENU DESIGN */
@@ -61,16 +63,60 @@ nav ul a:hover{
 
 /* C A B E Ç A L H O */
 .header{
-
     background: url("../images/background-home.jpg");
     height: 100vh;
 }
-
+.home{
+    width: 90%;
+    margin: 36% auto;
+    color: #fff;
+}
+.home hr{
+    width: 12%;
+    height: 5px;
+    margin: 2.25em 0;
+    color: #0db551;
+    opacity: 1;
+    border-radius: 12%;
+    -webkit-border-radius: 12%;
+    -moz-border-radius: 12%;
+    -ms-border-radius: 12%;
+    -o-border-radius: 12%;
+}
+.home h1{
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1em;
+}
+.home p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.75em;
+    padding: 0;
+    margin: 0;
+}
 /*
-    BREAKPOIINTS
+    BREAKPOINT DESKTOP
 */
-@media (min-width: 725px){
+@media (min-width: 800px){
+    nav{
+        padding: 1.2em 3em;
+    }
     nav ul li, .hide-menu-desktop{
         display: inline-block;
     }
+
+    .home{
+        width: 40%;
+        margin: 20% 15%;
+        color: #fff;
+    }
+    .home hr{
+        width: 10%;
+        height: 3px;
+    }
 }
+
+/*
+    BREAKPOINT TABLET
+*/
