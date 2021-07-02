@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta site - Fresco</title>
+    
+    <style>
+        
+        body{
+            margin: 5em;
+        }
+        pre{
+            font-family: monospace;
+            white-space: pre;
+            padding: 2em;
+            background-color: #ececec;
+        }
+        th{
+            border: 1px solid #000;
+        }
+        th:nth-child(1){
+            background-color: #F5EFE6;
+        }
+        th:nth-child(2){
+            background-color: #4CB944;
+        }
+        th:nth-child(3){
+            background-color: #FF8800;
+        }
+        th:nth-child(4){
+            background-color: #C66300;
+        }
+        th:nth-child(5){
+            background-color: #F5EFE6;
+        }
+        th:nth-child(6){
+            background-color: #292827;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Proposta site Fresco</h1>
+    <h2>Cores</h2>
+    <table>
+        <tr>
+            <th>#F5EFE6</th>
+            <th>#4CB944</th>
+            <th>#FF8800</th>
+            <th>#C66300</th>
+            <th>#F5EFE6</th>
+            <th>#292827</th>
+        </tr>
+    </table>
+    <h2>Fontes</h2>
+    <p>
+        Título: Berkshire Swash
+        <br>
+        Conteúdo: Josefin Sans
+    </p>
+
+    <h2>Imagens</h2>
+    <p>Para pegar as imagens que foram utilizadas, vá no <a href="https://www.cursoemvideo.com/cursowp/manual" target="_blank">site do curso</a> e no console adicione o resguinte código:</p>
+    <code><pre>
+    let url = 'https://www.cursoemvideo.com/meus-cursos/'
+    let imagens = url.document.querySelectorAll('img')
+
+    for(let i=0; i<=imagens.length; i++){
+        document.write(i+ ' - '+imagens[i].src)
+    }
+    </pre></code>
+
+    <p>Ele retornará como resultado todas as imagens que foram utilizadas: </p>
+    <ol>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/fresco-logo-pequeno.png">fresco-logo-pequeno.png</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/barra-horizontal.png">barra-horizontal.png</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/pizza.jpg">pizza.jpg</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/folha-fundo-01.png">folha-fundo-01.png</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/prato04-300x255.jpg">prato04-300x255.jpg</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/prato01-300x255.jpg">prato01-300x255.jpg</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/prato02-300x255.jpg">prato02-300x255.jpg</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/07/prato03-300x255.jpg">prato03-300x255.jpg</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/09/depoimento01.png">depoimento01.png</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/09/depoimento03.png">depoimento03.png</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursowp/manual/wp-content/uploads/2019/09/depoimento02.png">depoimento02.png</a></li>
+    </ol>
+
+</body>
+</html>

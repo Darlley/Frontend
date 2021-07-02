@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+ -webkit-font-smoothing: antialiased;
+}
+body, input, button {
+ font-size: 16px;
+}
+a, h1, h2, h3, h4, h5, h6{ font-family: "Montserrat",serif; }
+p{ font-family: "Nunito",sans-serif; }
+button {
+ cursor: pointer;
+}
+
+/*
+    M O B I L E
+    F I R S T
+*/
+
+/* M E N U  P R I N C I P A L*/
+.hide-menu-desktop{
+    display: none;
+}
+nav{
+    background-color: #000000dd;
+    width: 100%;
+    padding: 1.2em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 120px;
+}
+nav ul{
+    padding-top: 3px;
+}
+nav ul li{
+}
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size:14px;
+    font-weight: 800;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+nav ul a:hover{
+    color: #fff;
+    border-bottom: 4px solid #0db551;
+}
+
+/* ORIGAMID MENU DESIGN */
+
+
+/* C A B E Ç A L H O */
+.header{
+
+    background: url("../images/background-home.jpg");
+    height: 100vh;
+}
+
+/*
+    BREAKPOIINTS
+*/
+@media (min-width: 725px){
+    nav ul li, .hide-menu-desktop{
+        display: inline-block;
+    }
+}

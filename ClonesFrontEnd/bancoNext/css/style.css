@@ -1,0 +1,36 @@
+*{
+    margin: 0; /* padding: 0; */
+}
+body{
+    font-family: var(--font-semi-bold);
+}
+
+nav{
+    margin: 1.5em 0;
+}
+#icon-next{
+    width: 60px;
+
+}
+ul{
+    background-color: green;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 .5em;
+    font-size: 1em;
+    font-family: system-ui;
+}
+nav ul li a{
+    
+}
+
+/* 
+nav{background e padding}
+nav ul{margin}
+nav ul li{display e estilo}
+nav ul li a{decoration, padding, cor e hover} */
