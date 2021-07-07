@@ -1,0 +1,31 @@
+
+
+
+
+body{
+    background-color: #c7e7c7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #025c02;
+}
+h2{
+    color: #2f812f;
+}
+/* h1:nth-child(2){
+    color: red;
+} */
+
+h1#html, .html{
+    background-color: tomato;
+    color: #000;
+}
+h1#css, .css{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.destaque{
+    background-color: #ffff00;
+    color: #000;
+}
