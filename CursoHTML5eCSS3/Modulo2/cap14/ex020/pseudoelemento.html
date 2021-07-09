@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: blue
+        }
+        /* a:visited {
+            color: green;
+        } */
+        a:hover::before {
+            font-weight: bold;
+            content: '➤ ';
+        }
+        a:active{
+            background-color: blue;
+            color: white;
+        }
+        a::after{
+            content: '[Link]';
+            font-size: 10px;
+            color: red;
+            margin-left: 5px;
+            
+        }
+        .especial{
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Darlley" target="_blank">Respositório GitHub</a></li>
+        <li><a href="http://youtube.com" target="_blank">Canal do YouTube</a></li>
+        <li><a class="especial" href="https://cursoemvideo.com" target="_blank">Site do Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

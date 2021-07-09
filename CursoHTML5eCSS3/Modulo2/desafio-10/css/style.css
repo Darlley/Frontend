@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Androind';
+    src: url('../fontes/idroid.otf');
+}
+/*  verde claro     #3cdb83
+    verde escuro    #195b37    
+*/
+body{
+    background-color: #82dfab;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    padding: 12px;
+    color: #fff;
+    background: linear-gradient(to top, #195b37, #3cdb83);
+}
+header > h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+header > p{
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+    padding-bottom: 20px;
+    font-size: 15px;    
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+header a:hover{
+    background-color: #ffffff;
+    color: #195b37;
+    border: 1px solid #82dfab;
+    box-shadow: 2px 2px 1px #82dfab;
+}
+main{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+main h1, h2{
+    font-family: 'Androind', 'Courier New', Courier, monospace;
+    color: #195b37;
+    margin-bottom: 10px;
+}
+main h1{
+    font-size: 20px;
+}
+main h2{
+    margin-top: 20px;
+    font-size: 18px;
+}
+main p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+picture{
+    text-align: center;
+}
+main img{
+    margin: 10px 0;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+
+#rodape{
+    margin: 0 auto;
+    background-color: #fff;
+}
+.video{
+    background-color: #195b37;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    /*500 / 280*/
+}
+.extra {
+    background-color: #82dfab;
+    margin: 20px;
+    padding: 0 0 10px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.extra aside{
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #2fa866;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+.container-lista{
+    width: 100%;
+    margin: 0 auto;
+}
+.extra p, ul{
+    padding: 10px;
+}
+.extra li{
+    list-style: none;
+}
+.primeira-lista{
+    float: left;
+    margin: 0 70px 0 20px;
+}
+.segunda-lista{
+}
+.extra p{
+    clear: both;
+}
+#rodape p{
+    padding: 10px 20px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #195b37;
+    color: #fff;
+}
+
+@media (min-width: 865px) {
+    main{
+        width: 800px;
+    }
+}
