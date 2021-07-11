@@ -28,7 +28,7 @@ button {
 .hide-menu-desktop{
     display: none;
 }
-nav{
+#nav{
     background-color: #000000dd;
     width: 100%;
     padding: 1.2em;
@@ -36,30 +36,130 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-nav img{
+#nav img{
     width: 120px;
 }
-nav ul{
+#nav ul{
     padding-top: 3px;
 }
-nav ul li{
+#nav ul li{
 }
-nav ul a{
+#nav a{
     text-decoration: none;
     color: #fff;
     font-size:14px;
     font-weight: 800;
     padding: 0 1em;
     text-transform: uppercase;
-    
+
 }
-nav ul a:hover{
+#nav a:hover{
     color: #fff;
     border-bottom: 8px solid #0db551;
 }
 
 /* ORIGAMID MENU DESIGN */
+#hamburguer{
+    display: inline-block;
+    margin-left: .5em;
+    margin-bottom: 1px;
+    width: 18px;
+    border-top: 2px solid;
+}
+#hamburguer::after{
+    content:'';
+    display: block;
+    width: 18px;
+    height: 1px;
+    margin-top: 4px;
+    background: currentColor;
+}
 
+.menu-secundario{
+    display: none; 
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+#btn-close {
+    color: #f2f2f2e3;
+    margin: 10%;
+    padding: 10px;
+    left: 70%;
+    position: absolute;
+}
+#btn-close:hover{
+    color: #ffffff;
+}
+.container{
+    display: block;
+}
+.container-1{
+    background-color: #0db551;
+    color: #fff;
+}
+.container-2{
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+}
+.container-1, .container-2{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-child{
+    padding-top: 50vh;
+}
+.container-child li{
+    margin: auto;
+    list-style: none;
+    width: 80%;
+    margin-bottom: 20px;
+    border-bottom: 15px solid transparent;
+}
+#nav .menu-secundario .container-child li:hover{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    border-bottom: 15px solid #000000;
+}
+#nav .menu-secundario .container-child li > a{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    border: none;
+}
+
+#nav .container-2 .container-child li a{
+    color: #000;
+}
+#nav .container-2 .container-child li{
+    border: none;
+}
+#nav .container-2 .container-child li:hover{
+    border: none;
+}
+#nav .container-2 .container-child li a{
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 15px solid transparent;
+}
+#nav .container-2 .container-child li a:hover{
+    border-bottom: 15px solid #0db551;
+}
+
+#nav.active .menu-secundario{
+    display: block;
+}
 
 /* C A B E Ç A L H O */
 .header{
@@ -71,17 +171,16 @@ nav ul a:hover{
     margin: 36% auto;
     color: #fff;
 }
-.home hr{
-    width: 12%;
-    height: 5px;
+.divisor{
+    width: 50px;
+    height: 4px;
+    background-color: #0db551;
     margin: 2.25em 0;
-    color: #0db551;
-    opacity: 1;
-    border-radius: 12%;
-    -webkit-border-radius: 12%;
-    -moz-border-radius: 12%;
-    -ms-border-radius: 12%;
-    -o-border-radius: 12%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .home h1{
     font-size: 4em;
@@ -111,10 +210,49 @@ nav ul a:hover{
         margin: 20% 15%;
         color: #fff;
     }
-    .home hr{
-        width: 10%;
-        height: 3px;
+    #btn-close {
+        left: 83%;
+        top: -100px;
     }
+    .menu-secundario #btn-close:hover{
+        border: none;
+    }
+    #btn-close i{
+        color: #00000085;
+    }
+    #btn-close i:hover{
+        color: #000;
+    }
+    .container{
+        display: flex;
+    }
+    .container-1{
+        float: left;
+    }
+    #nav .menu-secundario .container-1 .container-child li{
+        display: flex;
+        justify-content: start;
+        border: none;
+    }
+    #nav .menu-secundario .container-1 .container-child li:hover{
+        border: none;
+    }
+    #nav .menu-secundario .container-1 .container-child li a{
+        font-size: 50px;
+        border-bottom: 15px solid transparent;
+    }
+    #nav .menu-secundario .container-1 .container-child li a:hover{
+        border-bottom: 15px solid #000;
+    }
+    .container-2{
+        float: right;
+        width: 45%;
+    }
+    #nav .menu-secundario .container-2 .container-child li a{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
 }
 
 /*
