@@ -8,7 +8,7 @@ body{
     nav {
         position: fixed;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 10px;
         background-color: transparent;
             
         ul{
@@ -75,7 +75,6 @@ body{
         
         .exercicios{
             width: 90%;
-            height: 100vh;
             background-color: #fff;
             padding: 10% 4%;
         }
@@ -83,4 +82,52 @@ body{
 }
 
 #ex01{
+    height: 50vh;
+}
+#ex02{
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    h1{
+        background-color: $color-bg-h2;
+        color: #c65130;
+        text-align: center;
+        font-size: 26px;
+    }
+    h2{
+        font-size: 20px;
+        background-color: $color-bg-h2;
+        color: $bg-color;
+        padding: 5px;
+        border-bottom: 2px solid #c65130;
+    }
+    div{
+        margin: 10px 0;
+    }
+    ul{
+        padding-left: 16px;
+        li{
+            color: #898989;
+        }
+    }
+    p{
+        color: #898989;
+        margin: 0;
+        padding: 2px 0;
+
+        a{
+            text-decoration: none;
+        }
+        a:active{
+            color: blue;
+        }
+        a:visited{
+            color: #c65130;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        b{
+            color: #515151;
+        }
+    }
 } 
