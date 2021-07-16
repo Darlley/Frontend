@@ -1,0 +1,15 @@
+{
+  "name": "jera",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Darlley Brasil de Brito Furtado <darlleybrito@gmail.com> (darlley.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "~0.12.3"
+  }
+}
