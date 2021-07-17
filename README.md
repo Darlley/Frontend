@@ -43,7 +43,8 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 
 > **Curso de Ferramentas Front-End** - [Serfrontend](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
 
-1. [Animação com SASS](https://darlley.github.io/Frontend/CursoHTML5eCSS3/Modulo1/desafio-09/)
+2. [Teste](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/testes-sass/dist/)
+1. [Animação com SASS](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/projeto-sass/)
 
 ### CERTIFICAÇÕES 
 <img width="100%" src="https://4.bp.blogspot.com/-VIgjGmYSoNg/Wz_eGy9NCXI/AAAAAAAABKc/jmaTXFvrC-YjtOVfJv27krtE6-pCFnjagCEwYBhgL/s640/certhtml.jpg" alt="Curso em Vídeo">
