@@ -16,6 +16,10 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 
 ## Exercícios de cursos:
 
+> **Curso de Web Design Completo** - [Serfrontend](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/)
+
+1. [Página de exercícios resolvidos](https://darlley.github.io/Frontend/CursoWebDesign-Serfrontend/result/)
+
 > **Curso de HTML5 e CSS3** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
 
 1. [Desafio 09](https://darlley.github.io/Frontend/CursoHTML5eCSS3/Modulo1/desafio-09/)
@@ -36,6 +40,10 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 
 > **HTML e CSS: O Início** - [UDEMY](https://www.udemy.com/course/html-e-css-o-inicio/)
 1. [Site modelo institucional](https://darlley.github.io/Frontend/Udemy/HTMLeCSSOIn%C3%ADcio/)
+
+> **Curso de Ferramentas Front-End** - [Serfrontend](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
+
+1. [Animação com SASS](https://darlley.github.io/Frontend/CursoHTML5eCSS3/Modulo1/desafio-09/)
 
 ### CERTIFICAÇÕES 
 <img width="100%" src="https://4.bp.blogspot.com/-VIgjGmYSoNg/Wz_eGy9NCXI/AAAAAAAABKc/jmaTXFvrC-YjtOVfJv27krtE6-pCFnjagCEwYBhgL/s640/certhtml.jpg" alt="Curso em Vídeo">

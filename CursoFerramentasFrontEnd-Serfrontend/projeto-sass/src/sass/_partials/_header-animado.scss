@@ -1,0 +1,99 @@
+.header-animado{
+    $h: 300px; $w_cenario: 2400px; // escopo local > header-animado
+
+    background-color: $main-color;
+    width: 95vw;
+    box-shadow: 0 12px 11px -7px #000000cc;
+    max-height: 90vh;
+    overflow: hidden;
+
+    .container{
+        max-width: 90%;
+        margin: 26px auto;
+    }
+
+    &__title{
+        color: darken($main-color, 30%);
+        font-size: 30px;
+    }
+
+    &__subtitle{
+        color: #fff;
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+
+    &__ilustra{
+        background-image: url('../imagens/cenario_all_960.png');
+        height: $h/2;
+        background-size: auto 100%;
+        background-position: center top;
+        
+        &>div{ 
+            display: none;
+            width: $w_cenario*2;
+        } // todas as div's que são filhas diretas de & (.header-animado__ilustra)
+
+        @media screen and (min-width: 480px){
+            background-image: url('../imagens/cenario_all_1530.png');
+        }
+
+        @mixin anima($imagem, $tempo, $direcao: reverse){
+            background-image: url('../imagens/cenario_#{$imagem}.png');
+            animation: anima-cenario #{$tempo} linear infinite #{$direcao};
+            -webkit-animation: anima-cenario #{$tempo} linear infinite #{$direcao};
+
+            @keyframes anima-cenario{
+                from{
+                    transform: translateX(-50%) translateY(0);
+                    -webkit-transform: translateX(-50%) translateY(0);
+                    -moz-transform: translateX(-50%) translateY(0);
+                    -ms-transform: translateX(-50%) translateY(0);
+                    -o-transform: translateX(-50%) translateY(0);
+                }
+                to{
+                    transform: translateX(0%) translateY(0);
+                    -webkit-transform: translateX(0%) translateY(0);
+                    -moz-transform: translateX(0%) translateY(0);
+                    -ms-transform: translateX(0%) translateY(0);
+                    -o-transform: translateX(0%) translateY(0);
+                }
+            }
+        }
+
+        @media screen and (min-width: 960px){
+            background-image: url('../imagens/cenario_bg.png');
+            height: $h;
+            position: relative;
+
+            &>div{
+                display: block;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+            
+            $anima_elements:    'helicoptero'   10s  reverse,
+                                'nuvens'        90s,
+                                'casas'         30s,
+                                'rua'           30s,
+                                'carrosCima'    15s,
+                                'carrosBaixo'   15s normal;
+            @each $el, $tempo, $dir in $anima_elements {
+                @if not $dir {
+                    $dir: reverse;
+                }
+                .#{$el} {
+                    @include anima( $el, $tempo, $dir );
+                }
+            }
+            .helicoptero{
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
