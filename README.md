@@ -16,35 +16,30 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 
 ## Exercícios de cursos:
 
-> **Curso de Ferramentas Front-End** - [Serfrontend](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
+1. **Curso de Ferramentas Front-End** - [Serfrontend](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
+   - [Teste](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/testes-sass/dist/)
+   - [Animação com SASS](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/projeto-sass/)
 
-1. [Teste](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/testes-sass/dist/)
-1. [Animação com SASS](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/projeto-sass/)
+1. **Curso de Web Design Completo** - [Serfrontend](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/)
+   - [Página de exercícios resolvidos](https://darlley.github.io/Frontend/CursoWebDesign-Serfrontend/result/)
 
-> **Curso de Web Design Completo** - [Serfrontend](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/)
+1. **Curso de HTML5 e CSS3** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
+   - [Desafio 09](https://darlley.github.io/Frontend/CursoHTML5eCSS3/Modulo1/desafio-09/)
 
-1. [Página de exercícios resolvidos](https://darlley.github.io/Frontend/CursoWebDesign-Serfrontend/result/)
+1. **Web Design Completo** - [ORIGAMID](https://www.origamid.com/curso/web-design-completo/)
+   - [Site Bikcraft](https://darlley.github.io/Frontend/WebDesign-Origamid/)
 
-> **Curso de HTML5 e CSS3** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
+1. **Desenvolvimento Web Completo** - [UDEMY](https://www.udemy.com/course/web-completo/)
+   - [Site Notícias Cidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/QuartoProjeto/)
+   -  [Site TecBlog](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/TerceiroProjeto/)
+   -  [Site Unes Universidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/PrimeiroProjeto/)
+   -  [Site Anna Bella Modelo](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/SegundoProjeto/)
 
-1. [Desafio 09](https://darlley.github.io/Frontend/CursoHTML5eCSS3/Modulo1/desafio-09/)
+1. **Curso de HTML5** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o)
+   - [Site Google Glass](https://darlley.github.io/Frontend/Curso%20em%20Video/HTML/)
 
-> **Web Design Completo** - [ORIGAMID](https://www.origamid.com/curso/web-design-completo/)
-
-1. [Site Bikcraft](https://darlley.github.io/Frontend/WebDesign-Origamid/)
-
-> **Desenvolvimento Web Completo** - [UDEMY](https://www.udemy.com/course/web-completo/)
-
-1. [Site Notícias Cidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/QuartoProjeto/)
-1. [Site TecBlog](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/TerceiroProjeto/)
-1. [Site Unes Universidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/PrimeiroProjeto/)
-1. [Site Anna Bella Modelo](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/SegundoProjeto/)
-
-> **Curso de HTML5** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o)
-1. [Site Google Glass](https://darlley.github.io/Frontend/Curso%20em%20Video/HTML/)
-
-> **HTML e CSS: O Início** - [UDEMY](https://www.udemy.com/course/html-e-css-o-inicio/)
-1. [Site modelo institucional](https://darlley.github.io/Frontend/Udemy/HTMLeCSSOIn%C3%ADcio/)
+1. **HTML e CSS: O Início** - [UDEMY](https://www.udemy.com/course/html-e-css-o-inicio/)
+   - [Site modelo institucional](https://darlley.github.io/Frontend/Udemy/HTMLeCSSOIn%C3%ADcio/)
 
 
 ### CERTIFICAÇÕES 
