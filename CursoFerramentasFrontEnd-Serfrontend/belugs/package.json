@@ -1,20 +1,20 @@
 {
-  "name": "projeto-sass",
+  "name": "belugs",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass src/sass -o dist/css --output-style compressed -w"
+    "init": "eslint ./src",
+    "prettier": "prettier --config ./.prettierrc --write src/**/*.js"
   },
   "keywords": [],
   "author": "Darlley Brasil de Brito Furtado <darlleybrito@gmail.com> (darlley.github.io)",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^6.0.1"
-  },
-  "dependencies": {
-    "gitignore": "^0.7.0",
-    "node": "^16.5.0"
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
   }
 }

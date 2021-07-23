@@ -29,7 +29,9 @@ body{
 }
 
 header{
-    padding: 12px;
+    /* padding: 12px; */
+    padding: 10px;
+    min-height: 140px;
     color: var(--cor0);
     background: linear-gradient(to top, var(--cor5), var(--cor2));
 }
@@ -38,15 +40,17 @@ header > h1{
     text-align: center;
     padding: 40px 0 20px 0;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #00000077;
 }
 header > p{
     font-family: var(--fonte-destaque);
     margin: 0 auto;
     text-align: center;
-    width: 350px;
-    padding-bottom: 20px;
-    font-size: 15px;    
+    max-width: 600px;
+    padding: 0 10px 20px 10px;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #00000077;
 }
 header a{
     text-decoration: none;
@@ -61,6 +65,7 @@ header a{
     -o-border-radius: 5px;
 }
 header a:hover{
+    transition-duration: 1s;
     background-color: var(--cor0);
     color: var(--cor5);
     border: 1px solid var(--cor2);
@@ -100,12 +105,14 @@ picture{
     text-align: center;
 }
 .container-main img{
-    margin: 10px 0;
     width: 100%;
+    margin: 2px 0;
+}
+.container-bugdroid{
     text-align: center;
 }
-.container{
-    text-align: center;
+.bugdroid-img{
+    max-width: 350px;
 }
 
 #rodape{
@@ -167,6 +174,20 @@ footer{
     padding: 20px;
     background-color: var(--cor5);
     color: var(--cor0);
+}
+
+strong{
+    color: var(--cor5);
+    padding: 2px;
+}
+main a{
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px;
+}
+main a:hover{
+    background-color: var(--cor1);
 }
 
 @media (min-width: 865px) {
