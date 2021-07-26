@@ -1,10 +1,11 @@
 @import 'partials/_pageweb.scss';
 @import 'partials/_fashion.scss';
+@import 'partials/_strata.scss';
 
-$bg-color: #5b1716;
+$bg-color: #a78989;
 $color-bg-h2: #ffd1ca; //#c65130
-
-body#inicio{ 
+ 
+body#inicio{
     margin: 0;
     padding: 0;
     background-color: $bg-color;
