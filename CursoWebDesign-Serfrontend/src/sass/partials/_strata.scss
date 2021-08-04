@@ -385,7 +385,28 @@ body#ex05{
 
                 }
             }
+
+            .row{
+                display: inline-block;
+                .col-1{
+                    width: 100%;
+                }
+                .col-3{
+                    text-align: center;
+                    width: 31.5%;
+                    margin: 1%;
+                    box-sizing: border-box;
+
+                    &:nth-child(3n-1){
+                        margin-left: 0%;
+                    }
+                    &:nth-child(3n-2){
+                        margin-right: 0%;
+                    }
+                }
+            }
         }
+
     }
 
     .main-footer{
