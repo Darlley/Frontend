@@ -13,5 +13,8 @@
   "devDependencies": {
     "http-server": "^0.12.3",
     "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "gitignore": "^0.7.0"
   }
 }
