@@ -32,10 +32,10 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
    - [Site Bikcraft](https://darlley.github.io/Frontend/WebDesign-Origamid/)
 
 1. **Desenvolvimento Web Completo** - [UDEMY](https://www.udemy.com/course/web-completo/)
-   - [Site Notícias Cidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/QuartoProjeto/)
-   -  [Site TecBlog](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/TerceiroProjeto/)
-   -  [Site Unes Universidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/PrimeiroProjeto/)
-   -  [Site Anna Bella Modelo](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/SegundoProjeto/)
+   - [Site Notícias Cidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/04/)
+   -  [Site TecBlog](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/03/)
+   -  [Site Unes Universidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/01/)
+   -  [Site Anna Bella Modelo](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/02/)
 
 1. **Curso de HTML5** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o)
    - [Site Google Glass](https://darlley.github.io/Frontend/Curso%20em%20Video/HTML/)

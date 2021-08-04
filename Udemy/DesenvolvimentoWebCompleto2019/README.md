@@ -5,9 +5,9 @@
 
 ## PROJETOS REALIZADOS
 
-1. [Unes Universidade](DesenvolvimentoWebCompleto2019/projetos/01)
-1. [Anna Bella Modelo](DesenvolvimentoWebCompleto2019/projetos/02)
-1. [TecBlog](DesenvolvimentoWebCompleto2019/projetos/03)
-1. [Notícias Cidade](DesenvolvimentoWebCompleto2019/projetos/04)
+1. [Unes Universidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/01/)
+1. [Anna Bella Modelo](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/02/)
+1. [TecBlog](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/03/)
+1. [Notícias Cidade](https://darlley.github.io/Frontend/Udemy/DesenvolvimentoWebCompleto2019/projetos/04/)
 
 ***O curso foi atualizado em 2020*** *
