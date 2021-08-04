@@ -11,5 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "http-server": "~0.12.3"
+  },
+  "dependencies": {
+    "gitignore": "^0.7.0"
   }
 }
