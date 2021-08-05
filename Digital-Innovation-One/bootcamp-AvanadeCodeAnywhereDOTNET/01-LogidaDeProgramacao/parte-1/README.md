@@ -81,14 +81,13 @@ As constantes também é uma posição na memória mas diferente das variavéis 
 
 Exibir a soma das 4 notas e a média aritmética do exemplo feito em aula
 
-**RESPOSTA**
-
 
 # AULA 4 - TOMADAS DE DECISÕES E EXPRESSÕES
 
 ## EXPRESSÕES
 
-Operadores aritméticos em algorítmos:
+**Expressões aritméticas** em algorítmos utilizam operadores aritméticos para realização de operações de:
+
 + (Adição)
 - (Substração
 / (Divisão)
@@ -96,5 +95,21 @@ Operadores aritméticos em algorítmos:
 ^ (Exponenciação)
 % (Resto da divisão)
 
-Expresões literais são manipulações de variaveis ou constantes geram valores literais
+**Expresões literais** são manipulações de variaveis ou constantes que geram valores literais.
+
+Expressões relacionais são operações lógicas ultilizando simbolos de maior (>), menor (<), diferente/negação (!) igualdade (==) com expressões aritméricas e literais onde o resulta no valor verdadeiro ou falso
+
+## TOMADAS DE DECISÃO
+
+Geralmente, as decisões de passos a ser realizados dependem de certas condições durante o fluxo do algoritmo. No caso de certa condição ser atendida o fluxo das decisões seguira o caminho se for verdadeira e outro fluxo se for falso (alternativas).
+
+### EXERCÍCIOS 
+
+Criar 4 variáveis "janeiro, fevereiro, março, abril", atribuir o valor das vendas de cada mês de um vendedor e fazer a media aritmética das vendas. Se aa vendas forem maior do que 5 mil o vendedor ganhará um abono de 10% e se for menor do que 5 mil o abono será de 3%
+
+# AULA 05 - CONCATENÇÃO
+
+Concatenação é a operação de unir tipos primitivos como números, caracteres, palavras ou frases.
+
+É útil para exibir em uma única mensagem de saída os valores armazenados nas variáveis durante o fluxo do algoritmo.
 
