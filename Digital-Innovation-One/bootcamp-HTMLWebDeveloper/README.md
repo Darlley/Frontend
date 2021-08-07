@@ -19,7 +19,7 @@ Fiz este repositório para guardar as atividades do bootcamp da [Digital Innovat
 | Bem vindo a DIO                                   | 1 horas  |
 | Lógica de Programação Essencial - [código](https://github.com/Darlley/Frontend/tree/master/Digital-Innovation-One/bootcamp-HTMLWebDeveloper/01-LogidaDeProgramacao)                   | 4 Horas  |
 | Introdução ao Git e ao Github - [código](https://github.com/Darlley/Frontend/tree/master/Digital-Innovation-One/bootcamp-HTMLWebDeveloper/02-IntroducaoGitGithub)                     | 5 Horas  |
-| Introdução a criação de websites com HTML5 e CSS3 | 6 Horas  |
+| Introdução a criação de websites com HTML5 e CSS3 - [código](https://github.com/Darlley/Frontend/tree/master/Digital-Innovation-One/bootcamp-HTMLWebDeveloper/03-CriacaoDeWebsites) | 6 Horas  |
 | Recriando a página inicial do Instagram           | 2 Horas  |
 | Programação para internet com JavaScript          | 2 Horas  |
 | Introdução a Programação com JavaScript           | *Desafio*  |
