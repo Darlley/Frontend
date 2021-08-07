@@ -4,7 +4,7 @@
 
 Fiz este repositório para guardar as atividades do bootcamp da [Digital Innovation One](https://digitalinnovation.one/bootcamps/html-web-developer).
 
-![HTML Bootcamp](https://hermes.digitalinnovation.one/tracks/3a10fc52-7df0-4d38-9d9c-e98f1e5f6c9a.png)
+![HTML Bootcamp](https://hermes.digitalinnovation.one/tracks/cover/4992be90-66d8-4802-b544-4a66cd83ec6c.png)
 
 ### Descrição do Bootcamp
 
