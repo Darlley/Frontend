@@ -26,4 +26,4 @@ Fiz este repositório para guardar as atividades do bootcamp da [Digital Innovat
 | Recriando a Interface do Netflix - [código](https://github.com/Darlley/Frontend/blob/master/Digital-Innovation-One/bootcamp-HTMLWebDeveloper/06-RecriandoNetflix/README.md)                  | 5 Horas  |
 | Construindo páginas para internet com Bootstrap   | 4 Horas  |
 | Fundamentos Aritméticos em JavaScript             | *Desafio*  |
-| Recriando o Jogo da cobrinha com JavaScript       | 2 Horas  |
+| Recriando o Jogo da cobrinha com JavaScript - [código](https://github.com/Darlley/Frontend/tree/master/Digital-Innovation-One/bootcamp-HTMLWebDeveloper/07-JogoJavascript)       | 2 Horas  |
