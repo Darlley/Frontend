@@ -1,3 +1,10 @@
+// Você receberá dois valores: um valor inteiro X com a distância total percorrida (em Km), e um valor real Y que representa o total de combustível consumido, com um dígito após o ponto decimal.
+let distancia = parseInt(gets());
+let combustivel = parseFloat(gets().toFixed(1));
+let valor = 0;
+valor = (distancia/combustivel).toFixed(3)
+console.log(valor+" km/l")
+
 /* AULA 1
  alert("Meu primeiro JavaScript")
 
@@ -74,7 +81,7 @@ function setReplace(frase, nome, nome_nome){
 console.log( setReplace("Japão o melhor time", "Japão", "Brasil") )
 */
 
-// AULA 5
+/* AULA 5
 
 function clicou(){
     var elemento = document.getElementById('agradecimento')
@@ -92,4 +99,4 @@ function trocar(elemento){
 }
 function voltar(elemento){
     elemento.innerHTML = "Passe o mouse aqui"
-}
+}*/
