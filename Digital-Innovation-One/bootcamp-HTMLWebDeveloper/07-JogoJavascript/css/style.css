@@ -1,3 +1,42 @@
-body{
-    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #000000;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.container h1{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.container p a{
+    color: orange;
+    font-weight: bold;
+}
+.container p a:hover{
+    color: #d38900;
+}
+
+p::selection, h1::selection{
+    background-color: #781fd1;
+    color: white;
 }
