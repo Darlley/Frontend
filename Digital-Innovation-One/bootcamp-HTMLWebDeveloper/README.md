@@ -12,6 +12,8 @@ Fiz este repositório para guardar as atividades do bootcamp da [Digital Innovat
 
 ---
 
+![certificação](https://hermes.digitalinnovation.one/certificates/cover/93688C17.jpg)
+
 ## Atividades desse bootcamp
 
 | Certificação                                      | 27 Horas |
