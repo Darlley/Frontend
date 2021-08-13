@@ -153,7 +153,8 @@ body#inicio{
             margin-right: 5px;
             background-color: #ddd;
             position: relative;
-            transition: all 1s;
+            transition: all .2s;
+            border: 1px solid transparent;
         }
         span:hover:after{
           cursor: pointer;
@@ -168,12 +169,15 @@ body#inicio{
           background-color: white;
           top: 2px;
           left: 3px;
-          transition: all 1s;
+          transition: all .2s;
         }
         
         input[type="checkbox"]{
           width: 0;
           margin: 0;
+        }
+        input[type="checkbox"]:focus + span{
+            border: 1px solid #00aeffc2;
         }
         input[type="checkbox"]:checked + span{
           background-color: #00d62c;
