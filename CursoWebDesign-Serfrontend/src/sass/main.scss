@@ -2,7 +2,7 @@
 @import 'partials/_fashion.scss';
 @import 'partials/_strata.scss';
 
-$bg-color: #a78989;
+$bg-color: #5b1716;
 $color-bg-h2: #ffd1ca; //#c65130
  
 body#inicio{
@@ -84,7 +84,6 @@ body#inicio{
         }
     }
 }
-
 #ex01{
     height: 50vh;
 }
@@ -133,5 +132,55 @@ body#inicio{
         b{
             color: #515151;
         }
+    }
+}
+#desafio-check{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    .container-checkbox{
+        display: flex;
+        justify-content: space-around;
+
+        label{
+            display: flex;
+        }
+
+        span{
+            display: inline-block;
+            border-radius: 10px;
+            width: 40px;
+            height: 20px;
+            margin-right: 5px;
+            background-color: #ddd;
+            position: relative;
+            transition: all 1s;
+        }
+        span:hover:after{
+          cursor: pointer;
+        }
+        span:after{
+          content: '';
+          display: inline-block;
+          position: absolute;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: white;
+          top: 2px;
+          left: 3px;
+          transition: all 1s;
+        }
+        
+        input[type="checkbox"]{
+          width: 0;
+          margin: 0;
+        }
+        input[type="checkbox"]:checked + span{
+          background-color: #00d62c;
+        }
+        input[type="checkbox"]:checked + span:After{
+          left: 22px;
+        }
+
     }
 }
