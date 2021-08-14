@@ -1,1 +1,0 @@
-[![Cetificado](https://hermes.digitalinnovation.one/certificates/cover/27EA0735.jpg)](https://certificates.digitalinnovation.one/AADD2875)
