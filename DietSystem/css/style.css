@@ -56,7 +56,7 @@ a{
 }
 .navbar ul li{
     text-align: center;
-    margin-right: 50px;
+    margin-right: 10px;
     display: inline-block;
 }
 .nav-item{
@@ -94,4 +94,32 @@ a{
 .listagem img{
     width: 20px;
     margin-right: 5px;
+}
+
+@media screen and (max-width: 860px){
+    .navbar ul{
+        width: 90%;
+        margin: auto;
+    }
+    .navbar ul li{
+        text-align: left;
+        width: 40%;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 690px){
+
+    .usuario{
+        margin-top: 40px;
+    }
+    .navbar ul{
+        width: 80%;
+        padding: 20px 0;
+    }
+    .navbar ul li{
+        text-align: left;
+        width: 100%;
+        display: block;
+    }
+
 }
