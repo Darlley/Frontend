@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,400&display=swap');
+
+:root{
+    --color-grey: #F0F2F5;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width: 20px;
+}
+.icon-header-man{
+    width: 40px
+}
+.bi-pencil{
+    color: #00d374;
+}
+
+.header{
+    position: relative;
+}
+.header-icon-home{
+    position: absolute;
+    width: 40px;
+    top: 20px;
+    left: 20px;
+} 
+
+.container{
+    padding: 20px 0 0;
+}
+.usuario{
+    
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    
+}
+.usuario p{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.navbar ul li{
+    text-align: center;
+    margin-right: 50px;
+    display: inline-block;
+}
+.nav-item{
+}
+.nav-item img{
+    width: 20px;
+    margin-right: 2px;
+}
+.nav-item a{
+    display: inline-block;
+    padding: 10px;
+}
+.nav-item a:hover{
+    background-color: #f4f4f4;
+    border-radius: 2px;
+}
+
+.conteudo{
+    overflow: hidden;
+    min-height: 40vh;
+    background-color: var(--color-grey);
+    padding: 0 4em;
+}
+
+.listagem:first-child{
+    margin-top: 4em;
+}
+.listagem{
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.508);
+    margin-bottom: 2em;
+    padding: 40px;
+    background-color: #fff;
+}
+.listagem img{
+    width: 20px;
+    margin-right: 5px;
+}
