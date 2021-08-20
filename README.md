@@ -17,13 +17,14 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 ## Exercícios de cursos:
 
 1. **Curso de Ferramentas Front-End** - [Serfrontend](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
-   - [Teste](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/testes-sass/dist/)
    - [Animação com SASS](https://darlley.github.io/Frontend/CursoFerramentasFrontEnd-Serfrontend/projeto-sass/)
 
 1. **Curso de Web Design Completo** - [Serfrontend](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/)
-   - [Página de exercícios resolvidos](https://darlley.github.io/Frontend/CursoWebDesign-Serfrontend/result/)
-      - [Layout Fashion](https://darlley.github.io/Frontend/CursoWebDesign-Serfrontend/dist/fashion.html)
-      - [Layout Curso Web Fundamentos](https://darlley.github.io/Frontend/CursoWebDesign-Serfrontend/dist/page.html) 
+   - [Página de exercícios resolvidos](https://darlley.github.io/Serfrontend/CursoWebDesign-Serfrontend/dist/)
+      - [Layout Fashion](https://darlley.github.io/Serfrontend/CursoWebDesign-Serfrontend/dist/fashion.html)
+      - [Layout Curso Web Fundamentos](https://darlley.github.io/Serfrontend/CursoWebDesign-Serfrontend/dist/page.html) 
+      - [Layout Strata](https://darlley.github.io/Serfrontend/CursoWebDesign-Serfrontend/dist/strata.html)
+      - [Range Hotels](https://darlley.github.io/Serfrontend/CursoWebDesign-Serfrontend/dist/rangehotel.html)
 
 1. **Curso de HTML5 e CSS3** - [CURSO EM VÍDEO](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)
    - [Desafio 09](https://darlley.github.io/Frontend/CursoHTML5eCSS3/Modulo1/desafio-09/)
@@ -49,8 +50,8 @@ Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
 ---
 
 <img width="100%" src="https://github.com/Darlley/darlley.github.io/blob/master/images/conhecimentos/certificacao-serfrontend-ferramentas.jpg?raw=true" alt="Serfrontend">
-<img width="100%" src="https://udemy-certificate.s3.amazonaws.com/image/UC-NTHC0UCF.jpg" alt="Matheus Battisti">
-<img width="100%" src="https://4.bp.blogspot.com/-VIgjGmYSoNg/Wz_eGy9NCXI/AAAAAAAABKc/jmaTXFvrC-YjtOVfJv27krtE6-pCFnjagCEwYBhgL/s640/certhtml.jpg" alt="Curso em Vídeo">
+<img width="100%" src="https://darlley.github.io/images/conhecimentos/certificacao-dio-bootcamphtml.jpg" alt="Digital Innovation One Bootcamp HTML">
+<img width="100%" src="https://darlley.github.io/images/conhecimentos/certificacao-origamid-flexbox.jpg" alt="Origamid Flexbox">
  
 ## LIVROS 
 
