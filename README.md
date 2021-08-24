@@ -1,14 +1,6 @@
-# starting-Frontend
+![curso-desenvolvedor-front-end-1536x424](https://user-images.githubusercontent.com/37590954/130640885-eb8f624e-b8b5-4fa2-b08f-cbd3d96944aa.jpg)
 
-Resolução de exercícios de cursos online em HTML, CSS e JavaScript:
-
-## Playlists de cursos
-
-> **PLAYLISTS DE CURSOS EM DESENVOVLIMENTO WEB**
-1. [DESENVOVLIMENTO WEB #1 - INTRODUÇÃO](https://www.youtube.com/playlist?list=PL45i6mPs-negfj_KONkAmQ7eqdhI4d-nQ)
-1. [DESENVOVLIMENTO WEB #2 - LINGUAGENS DE MARCAÇÃO](https://www.youtube.com/playlist?list=PL45i6mPs-nejUVU-OuFOqEgbOyUkXUCA4)
-1. [DESENVOVLIMENTO WEB #3 - FERRAMENTAS DE DESENVOLVIMENTO FRONT-END](https://www.youtube.com/playlist?list=PL45i6mPs-nejHV0_qUT651NaKNhRbbNJn)
-1. [DESENVOVLIMENTO WEB #4 - FRAMEWORKS FRONT-END](https://www.youtube.com/playlist?list=PL45i6mPs-nejgDrlzMT9F0LlEs33olqxE)
+Resolução de exercícios de cursos online em HTML, CSS e JavaScript. Playlists de cursos: https://foil-billboard-062.notion.site/PROGRAMA-O-WEB-FULLSTACK-f2ab9d0f039f4965871c42f32adc9d1b
 
 ## Projetos realizados
 
