@@ -106,7 +106,7 @@ body{
 .carousel__item{
 }
 .carousel__item--img{
-    width: 300px;
+    width: 100px;
 }
 
 .footer{
@@ -178,6 +178,11 @@ body{
     #secao-galeria__carousel{
         margin-top: 5rem;
     }
+
+    .carousel__item--img{
+        width: 300px;
+    }
+    
     
     .footer{
         padding: 5rem;
