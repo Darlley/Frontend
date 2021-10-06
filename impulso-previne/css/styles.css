@@ -103,10 +103,8 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.carousel__item{
-}
 .carousel__item--img{
-    width: 100px;
+    max-width: 100%;
 }
 
 .footer{
@@ -116,7 +114,10 @@ body{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
+
+}
+@media screen and (min-width: 800px) {
     
     .nav{
         flex-direction: row;
@@ -180,9 +181,8 @@ body{
     }
 
     .carousel__item--img{
-        width: 300px;
+        max-width: 200px;
     }
-    
     
     .footer{
         padding: 5rem;

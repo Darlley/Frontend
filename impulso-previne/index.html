@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Impulso Previne</title>
-    <script type="module">
-            document.documentElement.classList.remove('no-js');
-            document.documentElement.classList.add('js');
-    </script>
+
     <meta name="description" content="Desafio de estágio da Impulso Gov">
     <meta property="og:title" content="Home">
     <meta property="og:locale" content="pt_BR">
@@ -26,9 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- OWL CSS-->
-    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <!-- Content -->
@@ -74,15 +69,17 @@
                 <h2>Realização</h2>
                 
                 
-                <div id="secao-galeria__carousel">
-                    <div class="carousel__item">
-                        <img class="carousel__item--img" src="./images/perfil/realizacao-1.png" alt="">
-                    </div>
-                    <div class="carousel__item">
-                        <img class="carousel__item--img" src="./images/perfil/realizacao-3.jpg" alt="">
-                    </div>
-                    <div class="carousel__item">
-                        <img class="carousel__item--img" src="./images/perfil/realizacao-2.png" alt="">
+                <div class="container galeria" id="secao-galeria__carousel">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="carousel__item--img" src="./images/perfil/realizacao-1.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="carousel__item--img" src="./images/perfil/realizacao-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="carousel__item--img" src="./images/perfil/realizacao-2.png" alt="">
+                        </div>
                     </div>
                 </div>
                 
