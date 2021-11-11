@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev.finance$</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+    <header class="header">
+
+        <div class="container-checkbox">
+            <label class="dark-theme-label">
+                Dark Theme
+                <input class="dark-theme-input" type="checkbox" data-js="input">
+                <span class="dark-theme-span"></span>
+            </label>
+        </div>
+
+        <h1 id="logo">dev.finance$</h1>
+    </header>
+
+    <main class="container">
+        <section id="balance">
+            <h2 class="sr-only">Balanço</h2>
+
+            <div class="card">
+                <h3>
+                    <span>Entradas</span>
+                    <img src="assets/income.svg" alt="Imagem de entrada das transações">
+                </h3>
+                <p data-js="income-display">R$ 0,00</p>
+            </div>
+
+            <div class="card">
+                <h3>
+                    <span>Saídas</span>
+                    <img src="assets/expense.svg" alt="Imagem de saída das transações">
+                </h3>
+                <p data-js="expanse-display">R$ 0,00</p>
+            </div>
+
+            <div class="card total">
+                <h3>
+                    <span>Total</span>
+                    <img src="assets/total.svg" alt="Imagem do total de suas finanças">
+                </h3>
+                <p data-js="total-display">R$ 0,00</p>
+            </div>
+        </section>
+
+        <section id="transaction">
+            <h2 class="sr-only">Transações</h2>
+
+            <a href="#" class="button new" data-js="new-transaction">+ Nova Transação</a>
+
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <div class="modal-overlay" data-js="modal"> <!-- add ACTIVE class-->
+        <div class="modal">
+            <div class="modal-content">
+                <div id="form">
+                    <h2>Nova transação</h2>
+                    <form action="" onsubmit="Form.submit(event)">
+                        <div class="input-group">
+                            <label for="description" class="sr-only">Descrição</label>
+                            <input type="text" id="description" name="description" placeholder="Descrição">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="amount" class="sr-only">Valor</label>
+                            <input type="number" id="amount" name="amount" placeholder="0,00" step="0.01">
+                            <small class="help">Use o sinal - (negativo) para despesas e , (virgula) para casas decimais</small>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="date" class="sr-only">Data</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+
+                        <div class="input-group actions">
+                            <a href="#" class="button cancel" data-js="cancel-transaction">Cancelar</a>
+                            <button type="submit">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>dev.finance$ - <mark>Darlley</mark> </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
